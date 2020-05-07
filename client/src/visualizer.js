@@ -1183,7 +1183,6 @@ var Visualizer = (function($, window, undefined) {
       var getTextMeasurements = function(textsHash, options, callback) {
         // make some text elements, find out the dimensions
         var textMeasureGroup = svg.group(options);
-
         // changed from $.each because of #264 ('length' can appear)
         for (var text in textsHash) {
           if (textsHash.hasOwnProperty(text)) {
@@ -1325,7 +1324,7 @@ var Visualizer = (function($, window, undefined) {
         $.each(data.towers, function(towerNo, tower) {
           var maxWidth = 0;
           $.each(tower, function(fragmentNo, fragment) {
-            var width = data.sizes.fragments.widths[fragment.glyphedLabelText];
+            var width = Math.max((fragment.curly.to - fragment.curly.from), data.sizes.fragments.widths[fragment.glyphedLabelText]) - 4;
             if (width > maxWidth) maxWidth = width;
           }); // tower
           $.each(tower, function(fragmentNo, fragment) {
