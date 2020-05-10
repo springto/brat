@@ -1,2 +1,0 @@
-debug
-Das ist ein Test.

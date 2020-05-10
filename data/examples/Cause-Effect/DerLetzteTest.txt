@@ -1,2 +1,0 @@
-Test
-If the system detects an error, a warning window is shown and the system makes a sound.

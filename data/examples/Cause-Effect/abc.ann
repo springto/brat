@@ -1,8 +1,0 @@
-T4	OR 8 11	ist
-T1	OR 12 15	ein
-T2	CAUSE 8 15	ist ein
-T3	CONDITION 16 20	Test
-T5	OR 4 7	Das
-T6	STATEMENT 4 15	Das ist ein
-T7	STATEMENT 16 21	Test.
-T8	CAUSE_EFFECT_RELATION 4 21	Das ist ein Test.

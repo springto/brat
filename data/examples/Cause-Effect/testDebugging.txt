@@ -1,2 +1,0 @@
-a
-Wenn das System einen Fehler anzeigt, leuchtet die Lampe rot.

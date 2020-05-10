@@ -1,2 +1,0 @@
-abc
-Das ist ein Test, ob die Abstände richtig gesetzt werden.
