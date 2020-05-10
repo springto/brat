@@ -1,0 +1,16 @@
+T1	KEY 5 7	If
+T2	VARIABLE 8 18	the system
+T3	CONDITION 19 35	detects an error
+T4	VARIABLE 37 53	a warning window
+T5	CONDITION 54 62	is shown
+T6	AND 63 66	and
+T7	VARIABLE 67 77	the system
+T8	CONDITION 78 91	makes a sound
+T9	PUNCT 91 92	.
+T10	STATEMENT 67 91	the system makes a sound
+T11	STATEMENT 37 62	a warning window is shown
+T12	STATEMENT 8 35	the system detects an error
+T13	CAUSE 5 35	If the system detects an error
+T14	STATEMENT 37 91	a warning window is shown and the system makes a sound
+T15	CAUSE_EFFECT_RELATION 5 91	If the system detects an error, a warning window is shown and the system makes a sound
+T16	ROOT_SENTENCE 5 92	If the system detects an error, a warning window is shown and the system makes a sound.

@@ -1,0 +1,1 @@
+Memory constraints will come into play when the size of MySQL grows to a considerable size.

@@ -1,0 +1,9 @@
+T1	CONDITION 26 41	Wenn das System
+T2	OR 42 54	eine Warnung
+T3	VARIABLE 47 54	Warnung
+T4	STATEMENT 64 72	leuchtet
+T5	CONDITION 42 62	eine Warnung anzeigt
+T6	CAUSE_EFFECT_RELATION 26 41	Wenn das System
+T7	STATEMENT 35 46	System eine
+T8	STATEMENT 73 83	der Button
+T9	PUNCT 62 63	,

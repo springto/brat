@@ -1,0 +1,2 @@
+test1
+If the system detects an error, a warning window is shown.

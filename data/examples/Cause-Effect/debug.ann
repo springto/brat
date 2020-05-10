@@ -1,0 +1,5 @@
+T1	AND 6 9	Das
+T2	OR 6 13	Das ist
+T3	AND 14 17	ein
+T5	EFFECT 14 23	ein Test.
+T6	CAUSE_EFFECT_RELATION 6 22	Das ist ein Test

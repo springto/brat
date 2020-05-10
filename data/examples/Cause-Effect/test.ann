@@ -1,0 +1,13 @@
+T17	VARIABLE 0 16	Sleep efficiency
+T19	CONDITION 17 41	improved 8 to 16 percent
+T21	KEY 73 77	with
+T5	STATEMENT 0 41	Sleep efficiency improved 8 to 16 percent
+T6	CAUSE 42 52	with CBT-I
+T7	CAUSE 73 83	with drugs
+T1	STATEMENT 59 72	improved less
+T8	EFFECT 55 72	but improved less
+T20	KEY 42 46	with
+T26	CAUSE_EFFECT_RELATION 0 52	Sleep efficiency improved 8 to 16 percent with CBT-I
+T27	CAUSE_EFFECT_RELATION 55 83	but improved less with drugs
+T28	ROOT_SENTENCE 0 84	Sleep efficiency improved 8 to 16 percent with CBT-I , but improved less with drugs.
+T2	KEY 55 58	but
